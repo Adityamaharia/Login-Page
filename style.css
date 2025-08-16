@@ -26,6 +26,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
 }
 
 .logo {
@@ -68,7 +69,6 @@ header {
   font-size: 2em;
   color: #fff;
   cursor: pointer;
-  z-index: 1001;
 }
 
 /* Responsive navbar */
@@ -82,7 +82,6 @@ header {
     border-radius: 10px;
     flex-direction: column;
     padding: 20px;
-    z-index: 1000;
   }
 
   .navigation a {
